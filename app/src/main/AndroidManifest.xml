@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.spaces">
+
+    <application
+        android:testOnly="false"
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TabREC"></activity>
+        <activity android:name=".TabPOL" />
+        <activity android:name=".HoleDimensions" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Electricity" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".PolAndRec" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".SubTabMalaz" />
+        <activity android:name=".SubTabRuler" />
+        <activity android:name=".SubTabSoundAndLight" />
+        <activity android:name=".SubTabDarkening" />
+        <activity android:name=".SubTabDistanceRating" />
+        <activity android:name=".SubTabAverageEstimates" />
+        <activity android:name=".SubTabThumb" />
+        <activity android:name=".SubTabNumberSteps" />
+        <activity android:name=".TabPopular" />
+        <activity android:name=".TabScientific" />
+        <activity android:name=".EstimatingDistances" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".CorrectingMistake" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Corner" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".Conversions" android:parentActivityName=".MainActivity"/>
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

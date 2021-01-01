@@ -1,0 +1,9 @@
+<resources >
+    <string name="app_name">Criminal record</string>
+    <string name="splash_name">مركز الشرطة الفلسطينية</string>
+    <string name="splash_subName">وحدة تكنولوجيا المعلومات</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

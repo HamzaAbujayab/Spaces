@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/backgroundTab"
+        tools:context=".Ui.Home">
+<!--
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/myColor"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            app:popupTheme="@style/MenuStyle">
+-->
+            <com.google.android.material.tabs.TabLayout
+                android:id="@+id/tab_layout"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_60sdp"
+                android:background="#00000000"
+                app:tabSelectedTextColor="#000000"
+                app:tabIndicatorColor="#000000"
+                app:tabTextColor="#FFFFFF"
+                app:tabMode="scrollable"
+                app:tabIndicatorHeight="0dp"
+                app:tabRippleColor="#00000000"
+                />
+<!--
+        </com.google.android.material.appbar.AppBarLayout>
+-->
+
+
+        <androidx.viewpager.widget.ViewPager
+            android:background="@color/backgroundViewPager"
+            android:id="@+id/view_pager"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+
+    </LinearLayout>
+

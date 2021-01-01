@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="malaz">
+        <item>اليد</item>
+        <item>خنصر</item>
+        <item>بنصر</item>
+        <item>وسطى</item>
+        <item>سبابة</item>
+        <item>إبهام</item>
+        <item>تعبئة يدوية</item>
+    </string-array>
+</resources>

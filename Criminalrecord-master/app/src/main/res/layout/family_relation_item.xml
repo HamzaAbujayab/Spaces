@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@drawable/circul_border_solid"
+    android:layout_margin="@dimen/_5sdp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_margin="@dimen/_10sdp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/layout_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_margin="@dimen/_2sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="الاسم"
+                android:textSize="@dimen/_14sdp"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:id="@+id/name_of_user_family"
+                android:layout_margin="@dimen/_2sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="اسماعيل محمد\عبدالمجيد الخليلي"
+                android:textSize="@dimen/_12sdp"
+                android:layout_gravity="center"
+                />
+
+        </LinearLayout>
+
+
+        <View
+            android:background="#f0f0f0"
+            android:layout_height="1dp"
+            android:layout_width="match_parent" />
+
+        <LinearLayout
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:orientation="vertical"
+            android:layout_below="@+id/layout_name"
+            >
+            <TextView
+                android:layout_margin="@dimen/_2sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="نوع العلاقة"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_14sdp"
+                />
+
+            <TextView
+                android:id="@+id/type_of_relation_family"
+                android:layout_margin="@dimen/_2sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="أب"
+                android:textSize="@dimen/_12sdp"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_date_of"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toStartOf="@+id/layout_name"
+        android:layout_margin="@dimen/_8sdp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_5sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_14sdp"
+                android:layout_margin="@dimen/_2sdp"
+                android:text="رقم الهوية" />
+
+            <TextView
+                android:id="@+id/ID_number_family"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_2sdp"
+                android:textSize="@dimen/_12sdp"
+                android:text="5495852984" />
+
+
+        </LinearLayout>
+
+        <View
+            android:background="#f0f0f0"
+            android:layout_height="1dp"
+            android:layout_width="match_parent" />
+
+        <LinearLayout
+            android:layout_margin="@dimen/_5sdp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout_date_of"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_14sdp"
+                android:layout_margin="@dimen/_2sdp"
+                android:text="تاريخ الميلاد" />
+
+            <TextView
+                android:id="@+id/date_of_birth_family"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/_2sdp"
+                android:textSize="@dimen/_12sdp"
+                android:text="2020/10/10" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_toStartOf="@+id/layout_date_of"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="@dimen/_8sdp"
+        android:layout_alignParentStart="true"
+        >
+        <ImageView
+            android:layout_marginTop="@dimen/_5sdp"
+            android:id="@+id/image_user_family"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_80sdp"
+            android:scaleType="fitXY"
+            android:src="@drawable/person"
+            />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

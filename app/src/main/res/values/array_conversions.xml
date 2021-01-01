@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="conversions">
+        <item>من درجة إلى ملز</item>
+        <item>من درجة إلى مليم</item>
+        <item>من ملز إلى مليم</item>
+        <item>من مليم إلى ملز</item>
+    </string-array>
+</resources>

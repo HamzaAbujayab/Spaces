@@ -1,0 +1,2 @@
+rootProject.name='Criminal record'
+include ':app'

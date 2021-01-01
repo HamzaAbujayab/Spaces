@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_margin="@dimen/_6sdp"
+    android:background="@drawable/circul_border_solid"
+    android:layout_height="wrap_content">
+
+
+    <TextView
+        android:id="@+id/name_police_station"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:text="المركز"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TV_name_police_station_wanted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/name_police_station"
+        app:layout_constraintTop_toBottomOf="@+id/name_police_station" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/TV_name_police_station_wanted"
+        android:layout_marginTop="24dp"
+        android:text="تاريخ الطلب"
+        app:layout_constraintEnd_toEndOf="@+id/TV_name_police_station_wanted"
+        app:layout_constraintTop_toBottomOf="@+id/TV_name_police_station_wanted" />
+
+    <TextView
+        android:id="@+id/TV_date_of_wanted"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/_112sdp"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:text="الحالة"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/name_police_station" />
+
+
+    <TextView
+        android:id="@+id/TV_state_for_wanted"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toTopOf="@+id/TV_name_police_station_wanted" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

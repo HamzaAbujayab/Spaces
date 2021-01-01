@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="7dp"
+    android:paddingBottom="7dp">
+
+    <TextView
+        android:id="@+id/reading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:text="قراءة" />
+
+    <EditText
+        android:id="@+id/readings_of_namber"
+        android:background="@drawable/round_grey"
+        android:layout_weight="1"
+        android:hint="الرقم"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textSize="14sp"
+        android:inputType="numberDecimal"
+        android:textColor="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"/>
+
+    <ImageView
+        android:id="@+id/image_remove"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:tint="@color/black"
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/ic_close"/>
+
+</LinearLayout>
